@@ -1,0 +1,21 @@
+{
+  "name": "sirla_signin",
+  "version": "1.0.0",
+  "description": "SIRLA_簽到點名機器人",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bessyhuang/SIRLA-SigninChatbot.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SIRLA"
+  ],
+  "author": "bessyhuang <bessyhuang1@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
