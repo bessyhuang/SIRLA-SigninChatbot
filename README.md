@@ -36,3 +36,7 @@ SIRLA 簽到點名機器人 （數字點名）
 1. Windows 安裝 Node.js 
     
     https://nodejs.org/en/
+
+### Node.js 使用 .env 加上環境變數
+
+* 避免隱私的環境變數上傳至GitHub：[使用 dotenv 套件](https://dwatow.github.io/2019/01-26-node-with-env-first/#fn2)
