@@ -1,11 +1,13 @@
+require('dotenv').config();
+
 // 引用linebot SDK
 var linebot = require('linebot');
 
 // 用於辨識Line Channel的資訊
 var bot = linebot({
-  channelId: '1653595023',
-  channelSecret: '086cb134103ec13c706d29355a1ec7c3',
-  channelAccessToken: 'mG51ORcVhpvXSRH7t1lTouECL+4Rd5wFeSxUKQjvU/gwUKotOvbQLpCPTLTGVDHoy/AjFfZ4RwUe3lGmyn1Td3Jg+0hfsPoEvr8gl19e4e2O3GSk6/CTiiRaNZ7pnE2DmfJgLVvAprl+McG8g9dRggdB04t89/1O/w1cDnyilFU='
+  channelId: process.env['channelId'],
+  channelSecret: process.env['channelSecret'],
+  channelAccessToken: process.env['channelAccessToken']
 });
 
 // 當有人傳送訊息給Bot時

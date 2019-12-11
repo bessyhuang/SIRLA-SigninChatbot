@@ -16,6 +16,7 @@
   "author": "bessyhuang <bessyhuang1@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "jquery": "^3.4.1",
     "linebot": "^1.5.3"
   }
